@@ -1,10 +1,11 @@
 
 body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Asap',"Segoe UI",Calibri,Myriad,Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	line-height: 1.428571429;
 	color: #333;
 }
+
 .button {
 	border: 1px solid #888888;
 	color: #ffffff;
@@ -43,7 +44,8 @@ body {
 }
 
 .h1, h1 {
-    font-size: 86px;
+    font-size: 36px;
+    font-family: 'Neuton', "Palatino Linotype", Palatino, serif;
 }
 
 .video {
@@ -58,6 +60,14 @@ body {
 	background-color: #96d6d8;
 	min-height: 600px;
 	padding: 6px;
+}
+
+.left-nav-dir li {
+	list-style: none;
+}
+
+.lesson-head {
+	font-weight: bold;
 }
 .rgt-nav-chat {
 	background-color: #96d6d8;
