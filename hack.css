@@ -47,21 +47,32 @@ body {
 }
 
 .video {
-	width: 1280px;
+	width: 90%;
 	height: 720px;
 	background-color: #000;
 	margin: 0 auto;
 	background: url(images/home-youtube.png) 0 0 no-repeat;
 }
 
+.left-nav-dir {
+	background-color: #96d6d8;
+	min-height: 600px;
+	padding: 6px;
+}
+.rgt-nav-chat {
+	background-color: #96d6d8;
+	min-height: 600px;
+	padding: 6px;
+}
+
 /* --- MEDIA QUERIES --- */
 @media (min-width: 1200px) {
 
-.video {
+/* --- .video {
 	width: 80%;
 	height: auto;
 
 }
-
+*--- /
 /* --- */
 }
