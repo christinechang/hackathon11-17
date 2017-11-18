@@ -50,7 +50,6 @@ body {
 
 .video {
 	width: 90%;
-	height: 720px;
 	background-color: #000;
 	margin: 0 auto;
 	background: url(images/home-youtube.png) 0 0 no-repeat;
@@ -58,7 +57,8 @@ body {
 
 .left-nav-dir {
 	background-color: #96d6d8;
-	min-height: 600px;
+	border: 1px solid #333;
+	min-height: 300px;
 	padding: 6px;
 }
 
@@ -71,9 +71,23 @@ body {
 }
 .rgt-nav-chat {
 	background-color: #96d6d8;
-	min-height: 600px;
+	border: 1px solid #333;
+	min-height: 300px;
 	padding: 6px;
+	margin-left: 26px;
 }
+
+.left-notes {
+    background-color: #96d6d8;
+    border: 1px solid #333;
+    min-height: 300px;
+    padding: 6px;
+}
+.rgt-notes {
+    background-color: #96d6d8;
+    border: 1px solid #333;
+    min-height: 300px;
+    padding: 6px;
 
 /* --- MEDIA QUERIES --- */
 @media (min-width: 1200px) {
