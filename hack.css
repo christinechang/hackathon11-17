@@ -41,3 +41,26 @@ body {
 #clearStorage{
 	font-size: 10px;
 }
+
+.h1, h1 {
+    font-size: 86px;
+}
+
+.video {
+	width: 1280px;
+	height: 720px;
+	background-color: #000;
+	margin: 0 auto;
+	background: url(images/home-outube.png) 0 0 no-repeat;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (min-width: 1200px) {
+
+.video {
+	width: 80%;
+	height: auto;
+
+}
+
+}
